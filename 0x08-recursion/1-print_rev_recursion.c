@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - print a string in reserve 
- * @s: Pointer to the string to be printed in reserve
+ * _print_rev_recursion - Prints a string in reverse
+ * @s: Pointer to the string to be printed in reverse
  */
-void _print_rev_recursion(char *s);
+void _print_rev_recursion(char *s)
 {
 if (*s == '\0')
 return;
