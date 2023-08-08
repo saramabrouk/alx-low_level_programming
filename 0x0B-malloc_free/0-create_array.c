@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -11,7 +11,7 @@
  * Return: A pointer to the created array
  * or NULL if size = 0 or if it fails
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 char *array;
 unsigned int i;
@@ -28,4 +28,3 @@ array[i] = c;
 
 return (array);
 }
-
