@@ -3,11 +3,10 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - Prints strings with seperator followed by new line.
- * @seperator: The string printed between strings.
- * @n: number of the strings passed to the function.
+ *  print_strings - Prints strings, followed by a new line.
+ * @separator: The string to be printed between the strings.
+ * @n: The number of strings passed to the function.
  */
-
 void print_strings(const char *separator, const unsigned int n, ...);
 {
 va_list args;
